@@ -77,3 +77,5 @@ npm run dev
 
 3. **Open the app in your browser**:  
 Go to [http://localhost:3000](http://localhost:3000)
+
+<h3>⭐ If you like this project, give it a star — it keeps the code caffeinated ☕🚀</h3>
