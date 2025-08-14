@@ -43,10 +43,6 @@ source env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-> If no `requirements.txt` is provided, manually install:
-```bash
-pip install fastapi uvicorn python-dotenv
-```
 
 4. **Install frontend dependencies**:
 ```bash
@@ -60,14 +56,8 @@ Copy `.env.example` to `.env`:
 ```bash
 cp .env.example .env
 ```
-Then open `.env` and fill in the required values:
-```env
-E-KEY=CHANGEME
-E-M-KEY=CHANGEME
-G-KEY=CHANGEME
-NEXT_PUBLIC_API_URL=http://localhost:3000
-API_URL=http://127.0.0.1:8000
-```
+Then open `.env` and fill in the required values as given.
+
 
 ## Running the application
 
