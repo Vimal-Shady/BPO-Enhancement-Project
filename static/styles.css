@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(106, 13, 173, 0.8), rgba(0, 179, 0, 0.8)), /* Purple to Green */
+    linear-gradient(225deg, rgba(255, 0, 255, 0.7), rgba(0, 255, 255, 0.7)); /* Stronger Pink to Cyan */
+  background-blend-mode: overlay;
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(15px);
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+input[type="file"]::file-selector-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+}
+
+.result-container {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+p {
+  margin: 5px 0;
+}
+
